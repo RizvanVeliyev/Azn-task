@@ -80,7 +80,12 @@
 
                 }
 
-                if (click_button == -1) break;
+                if (click_button == -1) 
+                {
+                    Console.WriteLine("Your program has finished!");
+                    break;
+                }
+
             }
             
             
