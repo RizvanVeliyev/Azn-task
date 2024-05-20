@@ -76,7 +76,7 @@
                         Console.WriteLine("this code is not exist!");
                     }
                     if (result != -1)
-                        Console.WriteLine($"result={result} {rate_code}");
+                        Console.WriteLine($"result={result:F2} {rate_code}");
 
                 }
 
@@ -84,6 +84,14 @@
                 {
                     Console.WriteLine("Your program has finished!");
                     break;
+                }
+                else
+                {
+                    Console.WriteLine("if you want to show recent currency rates click 1:");
+                    Console.WriteLine("if you want to find currency rate by spesific code click 2:");
+                    Console.WriteLine("if you want to calculate amount by currency click 3 and enter the amount with AZN:");
+                    Console.WriteLine("if you want to exit program click -1:");
+
                 }
 
             }
